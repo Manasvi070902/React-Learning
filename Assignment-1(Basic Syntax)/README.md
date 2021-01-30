@@ -5,5 +5,5 @@
 - Added a method to manipulate the state (=> an event-handler method) and then passed the event-handler method reference to the UserInput component and bind it to the input-change event
 - The new input entered by the user overwrites the old username passed to UserOutput
 - Added two-way-binding to your input (in UserInput) to also display the starting username
-- Leaned how to add inline styles and stylesheets to components
+- Learned how to add inline styles and stylesheets to components
  
