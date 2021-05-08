@@ -17,10 +17,11 @@ function App() {
     });
   }
   return (
-    <div>
+    // build in wrapper components either use <> or <React.Fragment>
+    <>
       <AddUser onAddUser={addUserHandler} />
       <UserList users={usersList} />
-    </div>
+    </>
   )
 }
 
